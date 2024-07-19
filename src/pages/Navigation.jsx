@@ -5,7 +5,7 @@ const Navigation = ({ currentStep, goToStep }) => {
 
   return (
     <div className="flex items-center justify-center bg-red-300 pb-5">
-      <h2 className="me-5 mt-5">Tab Navigation (Navigate to any step by click)</h2>
+      {/* <h2 className="me-5 mt-5">Tab Navigation (Navigate to any step by click)</h2> */}
       <button
         onClick={() => goToStep(1)}
         disabled={currentStep === 1}
