@@ -3,9 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.post-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 50px;
-}
